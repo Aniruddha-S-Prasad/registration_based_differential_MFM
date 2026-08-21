@@ -23,13 +23,15 @@ Requirements
 Install (recommended)
 
 1. Create and activate a virtual environment:
-
+```bash
    python -m venv .venv
    source .venv/bin/activate
+```
 
-2. Install dependencies:
-
+3. Install dependencies:
+```bash
    pip install gwyfile numpy scipy scikit-image matplotlib matplotlib-scalebar
+```
 
 Quick usage
 
