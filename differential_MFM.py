@@ -410,7 +410,7 @@ class DifferentialMFMData:
 
         # Original loop indexed cost_map as [x_disp_idx, y_disp_idx]; transpose
         # to match that convention.
-        self.cost_map = cost_full[y_slice, x_slice].T
+        self.cost_map = np.flipud(cost_full[y_slice, x_slice])
 
     def plot_cost_map(
             self,
